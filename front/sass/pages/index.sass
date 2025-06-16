@@ -17,6 +17,7 @@
     &:hover
       background-color: grey
       color: white
+
 $font-suisse-intl-reg: SuisseIntl-Regular, sans-serif
 $font-favbet-bold: FavbetDisplay-Bold, sans-serif
 
@@ -45,7 +46,8 @@ $font-favbet-bold: FavbetDisplay-Bold, sans-serif
   &::before
     content: ''
     position: absolute
-    height: 510px
+    height: 80%
+    top: -21%
     left: 0
     right: 0
     opacity: 0.9
@@ -53,34 +55,18 @@ $font-favbet-bold: FavbetDisplay-Bold, sans-serif
   &::after
     content: ''
     position: absolute
-    bottom: 0
+    bottom: -9%
     left: 0
     right: 0
-    height: 176px
+    height: 27%
     background: linear-gradient(180deg, rgba(9, 4, 44, 0.00) 0%, #09042C 100%)
     opacity: 0.9
-
-  &__gift1
-    position: absolute
-    top: 18%
-    right: -100px
-    width: 479px
-    height: 452px
-  &__gift2
-    position: absolute
-    left: 0
-    top: 30%
-    width: 312px
-    height: 230px
-  &__gift3
-    position: absolute
-    bottom: -5px
-    left: 0
 
   &__header
     position: absolute
     top: 15px
     width: 100%
+    transform-origin: top
   &__logo
     margin: 0 auto
     height: 61px
@@ -105,17 +91,13 @@ $font-favbet-bold: FavbetDisplay-Bold, sans-serif
     font-weight: 700
     line-height: normal
     margin: 0 auto
-  &__sam
+  &__main
     position: absolute
     bottom: -5px
-    // left: -357px
-    // right: -393px
-    // width: 100%
-    left: 52%
+    left: 49%
     transform: translateX(-50%)
-    height: 780px
-    aspect-ratio: 1710/783
-
+    height: 888px
+    aspect-ratio: 992/887
   &__footer
     position: absolute
     z-index: 2
